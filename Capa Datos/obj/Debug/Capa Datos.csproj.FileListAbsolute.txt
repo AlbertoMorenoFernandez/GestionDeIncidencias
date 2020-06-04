@@ -1,0 +1,14 @@
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\bin\Debug\Capa Datos.dll.config
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\bin\Debug\Capa Datos.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\bin\Debug\Capa Datos.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\bin\Debug\Capa Entidades.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\bin\Debug\Capa Entidades.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\obj\Debug\Capa Datos.csprojAssemblyReference.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\obj\Debug\Capa Datos.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\obj\Debug\Capa Datos.csproj.CopyComplete
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\obj\Debug\Capa Datos.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Datos\obj\Debug\Capa Datos.pdb

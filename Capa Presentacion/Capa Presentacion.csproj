@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9CEB9DB5-8A98-4E3D-8BEE-484442EB06F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Capa_Presentacion</RootNamespace>
+    <AssemblyName>Capa Presentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.BarCode, Version=20.3.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.BarCode.20.3.0\lib\net45\Aspose.BarCode.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeStandard, Version=2.2.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BarcodeLib.2.2.5\lib\netstandard2.0\BarcodeStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="De.TorstenMandelkow.MetroChart, Version=0.9.5818.20693, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ModernUICharts.WPF.Beta.0.9.1\lib\De.TorstenMandelkow.MetroChart.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.2.2.920, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.2.2\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=3.0.1.920, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.3.0.1\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.4.5.1\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Zen.Barcode.Core, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b5ae55aa76d2d9de, processorArchitecture=MSIL">
+      <HintPath>..\packages\Zen.Barcode.Rendering.Framework.3.1.10729.1\lib\Zen.Barcode.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="VentanasModales\CambiarPasswordModal.xaml.cs">
+      <DependentUpon>CambiarPasswordModal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasModales\ConfirmarSalirModal.xaml.cs">
+      <DependentUpon>ConfirmarSalirModal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GestionarCategoriasControl.xaml.cs">
+      <DependentUpon>GestionarCategoriasControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Converters\ConvertIdCategoria.cs" />
+    <Compile Include="UserControls\Converters\ConvertIdSede.cs" />
+    <Compile Include="UserControls\Converters\ConvertLocalidad.cs" />
+    <Compile Include="UserControls\Converters\ConvertRol.cs" />
+    <Compile Include="VentanasModales\ImportarEntidadModal.xaml.cs">
+      <DependentUpon>ImportarEntidadModal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Converters\ConvertTecnicianAddress.cs" />
+    <Compile Include="UserControls\Converters\ConvertTecnicoId.cs" />
+    <Compile Include="UserControls\Converters\ConvertUserAddress.cs" />
+    <Compile Include="UserControls\Converters\ConvertUsuarioId.cs" />
+    <Compile Include="UserControls\CrearCodigoBarrasControl.xaml.cs">
+      <DependentUpon>CrearCodigoBarrasControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CrearTicketClienteControl.xaml.cs">
+      <DependentUpon>CrearTicketClienteControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\CrearTicketsAdminControl.xaml.cs">
+      <DependentUpon>CrearTicketsAdminControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EditarTicketsAdminControl.xaml.cs">
+      <DependentUpon>EditarTicketsAdminControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GestionarEquiposControl.xaml.cs">
+      <DependentUpon>GestionarEquiposControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GestionarTicketsTecnicoControl.xaml.cs">
+      <DependentUpon>GestionarTicketsTecnicoControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GestionarTicketsAdminControl.xaml.cs">
+      <DependentUpon>GestionarTicketsAdminControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\EstadoTicketsClienteControl.xaml.cs">
+      <DependentUpon>EstadoTicketsClienteControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GestionarLocalidadesControl.xaml.cs">
+      <DependentUpon>GestionarLocalidadesControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GestionarSedesControl.xaml.cs">
+      <DependentUpon>GestionarSedesControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\AsignarTicketsAdminControl.xaml.cs">
+      <DependentUpon>AsignarTicketsAdminControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TicketsPendientesTecnicoControl.xaml.cs">
+      <DependentUpon>TicketsPendientesTecnicoControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GestionarUsuariosControl.xaml.cs">
+      <DependentUpon>GestionarUsuariosControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\VerHistoricoTicketsClienteControl.xaml.cs">
+      <DependentUpon>VerHistoricoTicketsClienteControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\VerTicketsControl.xaml.cs">
+      <DependentUpon>VerTicketsControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\Utilidad.cs" />
+    <Compile Include="VentanasModales\ValorarTicketModal.xaml.cs">
+      <DependentUpon>ValorarTicketModal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\VentanaActivaSingleton.cs" />
+    <Compile Include="VentanaAdministrador.xaml.cs">
+      <DependentUpon>VentanaAdministrador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasModales\AsignarTicketModal.xaml.cs">
+      <DependentUpon>AsignarTicketModal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaGerente.xaml.cs">
+      <DependentUpon>VentanaGerente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasModales\InformacionModal.xaml.cs">
+      <DependentUpon>InformacionModal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasModales\RecuperarClaveModal.xaml.cs">
+      <DependentUpon>RecuperarClaveModal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaTecnico.xaml.cs">
+      <DependentUpon>VentanaTecnico.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaCliente.xaml.cs">
+      <DependentUpon>VentanaCliente.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VentanasModales\VerNotificacionesModal.xaml.cs">
+      <DependentUpon>VerNotificacionesModal.xaml</DependentUpon>
+    </Compile>
+    <Page Include="VentanasModales\CambiarPasswordModal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasModales\ConfirmarSalirModal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Estilos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasModales\ImportarEntidadModal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanaLogin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VentanaLogin.xaml.cs">
+      <DependentUpon>VentanaLogin.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="UserControls\GestionarCategoriasControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\CrearCodigoBarrasControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\CrearTicketClienteControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\CrearTicketsAdminControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\EditarTicketsAdminControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\GestionarEquiposControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\GestionarTicketsTecnicoControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\GestionarTicketsAdminControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\EstadoTicketsClienteControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\GestionarLocalidadesControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\GestionarSedesControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\AsignarTicketsAdminControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\TicketsPendientesTecnicoControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\GestionarUsuariosControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\VerHistoricoTicketsClienteControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\VerTicketsControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasModales\ValorarTicketModal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanaAdministrador.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasModales\AsignarTicketModal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanaGerente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasModales\InformacionModal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasModales\RecuperarClaveModal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanaTecnico.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanaCliente.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VentanasModales\VerNotificacionesModal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa Datos\Capa Datos.csproj">
+      <Project>{cb25e761-9499-4a50-9495-867fe404cc08}</Project>
+      <Name>Capa Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa Entidades\Capa Entidades.csproj">
+      <Project>{eb48045f-9e3b-4392-a259-a88da0cb24de}</Project>
+      <Name>Capa Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa Negocio\Capa Negocio.csproj">
+      <Project>{888432ee-08eb-4a90-a5dc-bbeaac12df4d}</Project>
+      <Name>Capa Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\auriculares.png" />
+    <Resource Include="Imagenes\gafas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\administrador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\tecnico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\oficina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\pc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\ciudad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\usuarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\ticket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\addTicket.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\equipos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\tuerca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\csv.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\estrellaNoOK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\estrellaOk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\asignada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\creada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\enCurso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Imagenes\resuelta.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Imagenes\rate.png" />
+    <Resource Include="Imagenes\notificacion3.png" />
+    <Resource Include="Imagenes\codigoBarras.png" />
+    <Resource Include="Imagenes\checkbox.png" />
+    <Resource Include="Imagenes\incidencia.png" />
+    <Resource Include="Imagenes\noOK.png" />
+    <Resource Include="Imagenes\ok.png" />
+    <Resource Include="Imagenes\help1.png" />
+    <Resource Include="Imagenes\help2.png" />
+    <Resource Include="Imagenes\help.png" />
+    <Resource Include="Imagenes\hidehelp.png" />
+    <Resource Include="Imagenes\advertencia.png" />
+    <Resource Include="Imagenes\exito.png" />
+    <Resource Include="Imagenes\calendario.png" />
+    <Resource Include="Imagenes\buscarEquipo.png" />
+    <Resource Include="Imagenes\home.png" />
+    <Resource Include="Imagenes\buscarTicket.png" />
+    <Resource Include="Imagenes\editTicket.png" />
+    <Resource Include="Imagenes\barcode.png" />
+    <Resource Include="Imagenes\print.png" />
+    <Resource Include="Imagenes\find.png" />
+    <Resource Include="Imagenes\sinImagen.png" />
+    <Resource Include="Imagenes\codigoGenerado.png" />
+    <Resource Include="Imagenes\abirCodigo.png" />
+    <Resource Include="Imagenes\etiquetaGenerada.png" />
+    <Resource Include="Imagenes\guardar.png" />
+    <Resource Include="Imagenes\asignar.png" />
+    <Resource Include="Imagenes\cercaSLA.png" />
+    <Resource Include="Imagenes\fueraSLA.png" />
+    <Resource Include="Imagenes\lejosSLA.png" />
+    <Resource Include="Imagenes\estadoAsignada.png" />
+    <Resource Include="Imagenes\estadoCreada.png" />
+    <Resource Include="Imagenes\estadoEnCurso.png" />
+    <Resource Include="Imagenes\estadoFinalizada.png" />
+    <Resource Include="Imagenes\estadoPendiente.png" />
+    <Resource Include="Imagenes\editarTicket.png" />
+    <Resource Include="Imagenes\info.png" />
+    <Resource Include="Imagenes\actualizar.png" />
+    <Resource Include="Imagenes\refresh.png" />
+    <Content Include="Sonidos\notificacion.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\MaterialDesignThemes.3.0.1\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.3.0.1\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MaterialDesignThemes.3.0.1\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.3.0.1\build\MaterialDesignThemes.targets'))" />
+  </Target>
+</Project>

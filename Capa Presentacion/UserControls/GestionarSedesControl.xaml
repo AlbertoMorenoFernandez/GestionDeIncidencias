@@ -1,0 +1,117 @@
+﻿<UserControl x:Class="Capa_Presentacion.UserControls.SedesControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:Capa_Presentacion.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="870" d:DesignWidth="1100">
+    <UserControl.Resources>
+        <local:ConvertLocalidad x:Key="LocalidadConverter"></local:ConvertLocalidad>
+    </UserControl.Resources>
+    <Grid Name="gdGeneral" Background="White" DataContext="{Binding}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="90"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="430"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0"  Orientation="Horizontal">
+            <Image Source="../Imagenes/tuerca.png"></Image>
+            <TextBlock Name="tbTitulo" Style="{StaticResource titulo}" VerticalAlignment="Center">GESTIÓN DE SEDES</TextBlock>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <StackPanel Orientation="Vertical" Margin="70,20,0,0">
+                <Label Style="{StaticResource labelTitle}">Calle *</Label>
+                <TextBox Name="tbCalle" MaxLength="90" Style="{StaticResource textbox}" Width="400" Text="{Binding Calle, Mode=TwoWay}" ></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="80,20,0,0">
+                <Label Style="{StaticResource labelTitle}">Planta *</Label>
+                <TextBox Name="tbPlanta" MaxLength="2" Text="{Binding Planta, Mode=TwoWay}" Style="{StaticResource textbox}"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Margin="60,20,0,0">
+                <Label Style="{StaticResource labelTitle}">Código Postal *</Label>
+                <TextBox  Name="tbCodigoPostal" MaxLength="5" Text="{Binding CodigoPostal, Mode=TwoWay}" Style="{StaticResource textbox}"></TextBox>
+            </StackPanel>
+           
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal">
+                 <StackPanel Orientation="Vertical" Margin="70,20,0,0">
+                <Label Style="{StaticResource labelTitle}">Localidad *</Label>
+                <ComboBox Name="cbLocalidad" ItemsSource="{Binding}" SelectionChanged="CbLocalidad_SelectionChanged"  HorizontalAlignment="Left" Width="200" Height="30"></ComboBox>
+                <TextBlock Visibility="Collapsed" Name="tbLocalidad" Text="{Binding Localidad, Mode=TwoWay}"></TextBlock>
+                 </StackPanel>
+        </StackPanel>
+        <StackPanel    VerticalAlignment="Center" Grid.Row="3" Orientation="Horizontal">
+            <Border Width="570" Name="panelInformacion" Visibility="Hidden" Height="70" Margin="70,0,0,0" BorderBrush="WhiteSmoke" BorderThickness="1" CornerRadius="10" Background="#d8e9e7">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Imagenes/info.png" Margin="10" Width="40"></Image>
+                    <TextBlock TextWrapping="Wrap" Width="500" Margin="20,10"> Los campos que deje en blanco o no modifique permanecerán sin cambios en la base de datos.</TextBlock>
+                </StackPanel>
+
+            </Border>
+            <Button Name="btImportarCSV" Click="BtImportarCSV_Click"  Style="{StaticResource RegularButton}" Margin="10,10,30,10">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="../Imagenes/csv.png"></Image>
+                    <Label Foreground="SlateGray" FontSize="14" VerticalAlignment="Bottom">
+                        <AccessText>_IMPORTAR .CSV</AccessText></Label>
+                </StackPanel>
+            </Button>
+            <Button x:Name="btAgregar" Click="BtAgregar_Click" Style="{StaticResource ResourceKey=RegularButton}" >
+                <AccessText>_AGREGAR</AccessText></Button>
+        </StackPanel>
+
+
+
+        <StackPanel  Name="panelEditar" Grid.Row="4">
+            <StackPanel Orientation="Horizontal">
+                <Label Margin="70,10,10,10"  Style="{StaticResource labelTitle}" >Buscar Sede:</Label>
+                <TextBox Name="tbBuscarSede" Width="300" BorderBrush="LightGray" BorderThickness="2" Height="30" materialDesign:HintAssist.Hint="Introduzca calle de la sede a buscar" ></TextBox>
+                <Button Name="btBuscarSede" Click="BtBuscarSede_Click"  Height="30" Margin="10" BorderThickness="1" BorderBrush="WhiteSmoke" Background="Transparent" HorizontalContentAlignment="Left">
+                    <StackPanel>
+                        <Image Source="../Imagenes/find.png" Width="25" Height="25" Stretch="Fill" ></Image>
+                    </StackPanel>
+                </Button>
+              
+            </StackPanel>
+            <DataGrid Name="dgSedes" AutoGenerateColumns="False" ItemsSource="{Binding}" CanUserDeleteRows="False" CanUserAddRows="False"   Height="300" Margin="70,10">
+                <DataGrid.Columns>
+                    <DataGridTextColumn  Header="Calle" Width="400" Binding="{Binding Calle}" IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Planta" Width="100" Binding="{Binding Planta}" IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Código Postal" Width="150" Binding="{Binding CodigoPostal}"  IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Localidad" Width="200" Binding="{Binding Localidad}"  IsReadOnly="True"   ></DataGridTextColumn>
+                     <DataGridTemplateColumn Header="Editar" Width="80" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Name="btEditar" Background="Transparent" Click="BtEditar_Click">
+                                    <Image Width="25" Source="../Imagenes/editarTicket.png"></Image>
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+            <StackPanel Orientation="Horizontal" Margin="854,10,0,10">
+                <Button Name="btExportarCSV" Click="BtExportarCSV_Click" Style="{StaticResource RegularButton}" Margin="10,10,70,10">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="../Imagenes/csv.png"></Image>
+                        <Label Foreground="SlateGray">
+                            <AccessText>_EXPORTAR A CSV</AccessText></Label>
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="5" HorizontalAlignment="Right" Name="panelVolver">
+            <Button Visibility="Hidden" Click="BtVolver_Click"  Margin="50,10" Style="{StaticResource RegularButton}" Name="btVolver">
+                <AccessText>_VOLVER</AccessText></Button>
+        </StackPanel>
+        <StatusBar Background="WhiteSmoke" Grid.Row="6" Name="statusBar" Height="50">
+            <TextBlock Foreground="White" Name="tbStatusInformation" Margin="10"></TextBlock>
+        </StatusBar>
+    </Grid>
+</UserControl>

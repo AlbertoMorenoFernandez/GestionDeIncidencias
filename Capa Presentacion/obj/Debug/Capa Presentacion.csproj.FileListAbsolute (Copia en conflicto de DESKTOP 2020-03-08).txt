@@ -1,0 +1,34 @@
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Presentacion.exe.config
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Presentacion.exe
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Presentacion.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Datos.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Entidades.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Negocio.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Datos.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Datos.dll.config
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Entidades.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Negocio.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.exe.config
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\MainWindow.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaPrincipal.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\App.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion_MarkupCompile.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion_MarkupCompile.lref
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\MainWindow.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaPrincipal.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.g.resources
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa_Presentacion.Properties.Resources.resources
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.GenerateResource.Cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.exe
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.csprojAssemblyReference.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaAdministrador.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaGerente.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaTecnico.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaUsuario.g.cs

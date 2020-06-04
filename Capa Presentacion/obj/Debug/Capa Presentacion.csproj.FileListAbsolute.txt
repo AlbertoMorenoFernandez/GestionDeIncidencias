@@ -1,0 +1,390 @@
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Presentacion.exe.config
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Presentacion.exe
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Presentacion.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\netstandard.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.AppContext.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Collections.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Collections.Specialized.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.ComponentModel.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Console.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Data.Common.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Globalization.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.Compression.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.Pipes.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Linq.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Linq.Expressions.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Linq.Parallel.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Linq.Queryable.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.Http.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.NameResolution.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.Ping.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.Primitives.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.Requests.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.Security.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.Sockets.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.WebSockets.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.ObjectModel.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Reflection.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Resources.Reader.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Resources.Writer.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.Handles.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Security.Claims.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Security.Principal.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Security.SecureString.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Text.Encoding.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Threading.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Threading.Tasks.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Threading.Thread.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Threading.Timer.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.ValueTuple.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Xml.XDocument.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Xml.XPath.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Aspose.BarCode.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\BarcodeStandard.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Datos.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Entidades.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Negocio.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\MaterialDesignColors.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Drawing.Common.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Datos.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Datos.dll.config
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Entidades.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Capa Negocio.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Aspose.BarCode.xml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.csprojAssemblyReference.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.exe.config
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\CambiarPasswordModal.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\ConfirmarSalirModal.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\ImportarEntidadModal.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaLogin.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarCategoriasControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\CrearCodigoBarrasControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\CrearTicketClienteControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\CrearTicketsAdminControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\EditarTicketsAdminControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarEquiposControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarTicketsTecnicoControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarTicketsAdminControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\EstadoTicketsClienteControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarLocalidadesControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarSedesControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\AsignarTicketsAdminControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\TicketsPendientesTecnicoControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarUsuariosControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\VerHistoricoTicketsClienteControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\VerTicketsControl.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\ValorarTicketModal.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaAdministrador.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\AsignarTicketModal.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaGerente.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\InformacionModal.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\RecuperarClaveModal.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaTecnico.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaCliente.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\VerNotificacionesModal.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\App.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion_Content.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion_MarkupCompile.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion_MarkupCompile.lref
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\App.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\CambiarPasswordModal.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\ConfirmarSalirModal.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Estilos.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\ImportarEntidadModal.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaLogin.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarCategoriasControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\CrearCodigoBarrasControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\CrearTicketClienteControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\CrearTicketsAdminControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\EditarTicketsAdminControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarEquiposControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarTicketsTecnicoControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarTicketsAdminControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\EstadoTicketsClienteControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarLocalidadesControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarSedesControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\AsignarTicketsAdminControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\TicketsPendientesTecnicoControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\GestionarUsuariosControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\VerHistoricoTicketsClienteControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\UserControls\VerTicketsControl.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\ValorarTicketModal.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaAdministrador.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\AsignarTicketModal.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaGerente.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\InformacionModal.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\RecuperarClaveModal.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaTecnico.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanaCliente.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\VentanasModales\VerNotificacionesModal.baml
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.g.resources
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa_Presentacion.Properties.Resources.resources
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.GenerateResource.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.CopyComplete
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.exe
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Presentacion\obj\Debug\Capa Presentacion.pdb
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Capa Presentacion.exe.config
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Capa Presentacion.exe
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Capa Presentacion.pdb
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\netstandard.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.AppContext.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Collections.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Collections.Specialized.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.ComponentModel.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Console.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Data.Common.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Globalization.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.Compression.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.Pipes.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Linq.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Linq.Expressions.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Linq.Parallel.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Linq.Queryable.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.Http.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.NameResolution.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.Ping.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.Primitives.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.Requests.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.Security.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.Sockets.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.WebSockets.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.ObjectModel.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Reflection.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Resources.Reader.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Resources.Writer.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.Handles.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Security.Claims.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Security.Principal.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Security.SecureString.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Text.Encoding.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Threading.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Threading.Tasks.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Threading.Thread.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Threading.Timer.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.ValueTuple.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Xml.XDocument.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Xml.XPath.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Aspose.BarCode.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\BarcodeStandard.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Capa Datos.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Capa Entidades.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Capa Negocio.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\De.TorstenMandelkow.MetroChart.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\MaterialDesignColors.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Drawing.Common.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Capa Datos.pdb
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Capa Datos.dll.config
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Capa Entidades.pdb
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Capa Negocio.pdb
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Aspose.BarCode.xml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion.csprojAssemblyReference.cache
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion.exe.config
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\CambiarPasswordModal.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\ConfirmarSalirModal.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\ImportarEntidadModal.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanaLogin.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarCategoriasControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\CrearCodigoBarrasControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\CrearTicketClienteControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\CrearTicketsAdminControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\EditarTicketsAdminControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarEquiposControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarTicketsTecnicoControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarTicketsAdminControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\EstadoTicketsClienteControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarLocalidadesControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarSedesControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\AsignarTicketsAdminControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\TicketsPendientesTecnicoControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarUsuariosControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\VerHistoricoTicketsClienteControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\VerTicketsControl.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\ValorarTicketModal.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanaAdministrador.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\AsignarTicketModal.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanaGerente.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\InformacionModal.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\RecuperarClaveModal.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanaTecnico.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanaCliente.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\VerNotificacionesModal.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\App.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion_Content.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion_MarkupCompile.cache
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion_MarkupCompile.lref
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\App.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\CambiarPasswordModal.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\ConfirmarSalirModal.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Estilos.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\ImportarEntidadModal.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanaLogin.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarCategoriasControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\CrearCodigoBarrasControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\CrearTicketClienteControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\CrearTicketsAdminControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\EditarTicketsAdminControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarEquiposControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarTicketsTecnicoControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarTicketsAdminControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\EstadoTicketsClienteControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarLocalidadesControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarSedesControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\AsignarTicketsAdminControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\TicketsPendientesTecnicoControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\GestionarUsuariosControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\VerHistoricoTicketsClienteControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\UserControls\VerTicketsControl.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\ValorarTicketModal.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanaAdministrador.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\AsignarTicketModal.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanaGerente.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\InformacionModal.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\RecuperarClaveModal.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanaTecnico.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanaCliente.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\VentanasModales\VerNotificacionesModal.baml
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion.g.resources
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa_Presentacion.Properties.Resources.resources
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.GenerateResource.cache
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion.csproj.CopyComplete
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion.exe
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\Capa Presentacion.pdb

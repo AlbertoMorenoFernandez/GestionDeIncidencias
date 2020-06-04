@@ -1,0 +1,20 @@
+﻿Capa Presentacion
+
+
+winexe
+C#
+.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\obj\Debug\
+Capa_Presentacion
+none
+false
+DEBUG;TRACE
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\Capa Presentacion\App.xaml
+30-2047820424
+1-1893205871
+43-656238703
+131-1840838879
+VentanasModales\CambiarPasswordModal.xaml;VentanasModales\ConfirmarSalirModal.xaml;Estilos.xaml;VentanasModales\ImportarEntidadModal.xaml;VentanaLogin.xaml;UserControls\GestionarCategoriasControl.xaml;UserControls\CrearCodigoBarrasControl.xaml;UserControls\CrearTicketClienteControl.xaml;UserControls\CrearTicketsAdminControl.xaml;UserControls\EditarTicketsAdminControl.xaml;UserControls\GestionarEquiposControl.xaml;UserControls\GestionarTicketsTecnicoControl.xaml;UserControls\GestionarTicketsAdminControl.xaml;UserControls\EstadoTicketsClienteControl.xaml;UserControls\GestionarLocalidadesControl.xaml;UserControls\GestionarSedesControl.xaml;UserControls\AsignarTicketsAdminControl.xaml;UserControls\TicketsPendientesTecnicoControl.xaml;UserControls\GestionarUsuariosControl.xaml;UserControls\VerHistoricoTicketsClienteControl.xaml;UserControls\VerTicketsControl.xaml;VentanasModales\ValorarTicketModal.xaml;VentanaAdministrador.xaml;VentanasModales\AsignarTicketModal.xaml;VentanaGerente.xaml;VentanasModales\InformacionModal.xaml;VentanasModales\RecuperarClaveModal.xaml;VentanaTecnico.xaml;VentanaCliente.xaml;VentanasModales\VerNotificacionesModal.xaml;
+
+False
+

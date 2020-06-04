@@ -1,0 +1,78 @@
+﻿<UserControl x:Class="Capa_Presentacion.UserControls.CrearTicketsAdminControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:Capa_Presentacion.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="870" d:DesignWidth="1100">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"></RowDefinition>
+            <RowDefinition Height="260"></RowDefinition>
+            <RowDefinition Height="320"></RowDefinition>
+            <RowDefinition Height="140"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock Margin="70,20,10,0" Style="{StaticResource titulo}">Crear Ticket</TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="1" Margin="70,10">
+            <StackPanel Orientation="Vertical">
+                <Label Style="{StaticResource labelTitle}" Margin="0,5">Equipo</Label>
+                <StackPanel Orientation="Horizontal">
+                    <TextBox Name="tbEquipo" materialDesign:HintAssist.Hint="Service Tag" MaxLength="6"  TextChanged="TbEquipo_TextChanged" BorderThickness="2"  HorizontalAlignment="Left" BorderBrush="LightGray" LostFocus="TbEquipo_LostFocus"  Width="250" Margin="0,10,10,0"></TextBox>
+                    <Image Name="imgVerificar" Width="35" VerticalAlignment="Bottom" Visibility="Hidden" Source="../Imagenes/ok.png"></Image>
+                </StackPanel>
+                <Label Style="{StaticResource labelTitle}"  Margin="0,10,0,0">Asignar a:</Label>
+                <ComboBox Name="cbTecnicos" Height="35"  Width="250" BorderThickness="2" BorderBrush="LightGray"  HorizontalAlignment="Left" Margin="0,10,0,0" SelectionChanged="CbTecnicos_SelectionChanged"></ComboBox>
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox Name="chbTecnicos" Margin="10" Unchecked="ChbTecnicos_Unchecked" Checked="ChbTecnicos_Checked"></CheckBox>
+                    <TextBlock Margin="10">Asignar a técnico de otra sede.</TextBlock>
+                   
+                </StackPanel>
+                <ComboBox Name="cbTecnicosExternos" Margin="0,10,0,0" Visibility="Hidden" SelectionChanged="CbTecnicosExternos_SelectionChanged"></ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <Label  Style="{StaticResource labelTitle}" Margin="50,0">Descripción</Label>
+                <TextBox Name="tbDescripcion" Width="600"  TextWrapping="Wrap" Style="{StaticResource longTextbox}" HorizontalAlignment="Center" Background="WhiteSmoke" Height="150" Margin="50,20,-4,20" TextAlignment="Justify" AcceptsReturn="True" AcceptsTab="True"/>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Grid.Row="2">
+            <StackPanel Orientation="Horizontal" >
+                <Image Source="../Imagenes/tecnico.png" Height="30" Width="30" VerticalAlignment="Top" Margin="70,10,10,10"></Image>
+                <Label Style="{StaticResource labelTitle}" Margin="10,15" VerticalAlignment="Top" Height="30"> Técnico:</Label>
+                <TextBlock Name="tbNombreTecnico" Width="250" Margin="10,20" Height="30" VerticalAlignment="Top"></TextBlock>
+                <Label Style="{StaticResource labelTitle}" Margin="10,15,20,20" VerticalAlignment="Top" Height="30"> Sede:</Label>
+                <TextBlock Name="tbDireccionTecnico" Width="500" Margin="0,20,0,0" Height="30" VerticalAlignment="Top"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="70,10">
+                <Border BorderThickness="2" BorderBrush="LightGray" CornerRadius="9" Background="WhiteSmoke" Width="120" Height="120">
+                    <StackPanel>
+                        <TextBlock Name="tbAsignadas" FontSize="80" HorizontalAlignment="Center" Height="90" VerticalAlignment="Top">-</TextBlock>
+                        <TextBlock FontSize="20" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20">Asignadas</TextBlock>
+                    </StackPanel>
+                </Border>
+                <Border BorderThickness="2" BorderBrush="LightGray" CornerRadius="9" Background="WhiteSmoke" Width="120" Height="120" Margin="40,0">
+                <StackPanel>
+                    <TextBlock Name="tbPendientes" FontSize="80" HorizontalAlignment="Center" Foreground="IndianRed" Height="90" VerticalAlignment="Top">-</TextBlock>
+                    <TextBlock FontSize="20" Height="30" Foreground="IndianRed" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20">Pendientes</TextBlock>
+                </StackPanel>
+                </Border>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Name="btBorrar" Click="BtBorrar_Click"   Style="{StaticResource RegularButton}" HorizontalAlignment="Left" Margin="70,0,20,0">LIMPIAR DATOS</Button>
+            <Button Name="btCrear" Click="BtCrear_Click" Style="{StaticResource RegularButton}" HorizontalAlignment="Left" Margin="10,0,20,0">CREAR TICKET</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="4">
+            <StatusBar Background="WhiteSmoke" Grid.Row="3" Name="statusBar" Height="50">
+                <TextBlock Foreground="White" Name="tbStatusInformation" Margin="10"></TextBlock>
+            </StatusBar>
+        </StackPanel>
+            
+    </Grid>
+</UserControl>

@@ -1,0 +1,120 @@
+﻿<UserControl x:Class="Capa_Presentacion.UserControls.EditarTicketsAdminControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Capa_Presentacion.UserControls"
+             mc:Ignorable="d" 
+              d:DesignHeight="870" d:DesignWidth="1100" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <local:ConvertTecnicoId x:Key="myConverter"></local:ConvertTecnicoId>
+    </UserControl.Resources>
+    <Grid Background="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="240"></RowDefinition>
+            <RowDefinition Height="500"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center"  Style="{StaticResource titulo}" Margin="70,0,0,0">Editar Ticket</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Margin="70,5,30,5">
+            <StackPanel Orientation="Vertical">
+                <Border  Background="WhiteSmoke"  CornerRadius="15,15,0,0">
+                    <StackPanel Orientation="Horizontal" Height="50">
+                        <Label Margin="10,0,0,0" FontWeight="Bold" VerticalAlignment="Center">FILTRAR</Label>
+                    </StackPanel>
+                </Border>
+                <Border BorderThickness="2" BorderBrush="WhiteSmoke" CornerRadius="0,0,10,10">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="65">
+                            <Label Margin="10,0,0,0" Width="100" Height="40" VerticalAlignment="Center" Style="{StaticResource labelTitle}">Por IdTicket:</Label>
+                            <TextBox Name="TbIdTicket" Width="170" Height="40" BorderBrush="WhiteSmoke" BorderThickness="2" Margin="30,0" TextChanged="TbIdTicket_TextChanged"></TextBox>
+                            <Label Margin="10,0,0,0" Width="100" Height="40" VerticalAlignment="Center"  Style="{StaticResource labelTitle}">Por Técnico:</Label>
+                            <TextBox Name="TbTecnico" Width="170" Height="40" BorderBrush="WhiteSmoke" BorderThickness="2" Margin="30,0" TextChanged="TbTecnico_TextChanged"></TextBox>
+                            <Label Width="100" Height="40" VerticalAlignment="Center"  Style="{StaticResource labelTitle}">Por Usuario:</Label>
+                            <TextBox Name="tbUsuario" Width="170" Height="40" BorderBrush="WhiteSmoke" BorderThickness="2" Margin="30,0" TextChanged="TbUsuario_TextChanged"></TextBox>
+                           
+                        </StackPanel>
+                        <StackPanel  Orientation="Horizontal" Height="65">
+                            <Label Margin="10,0,0,0" Width="100" Height="40" VerticalAlignment="Center"  Style="{StaticResource labelTitle}">SLA:</Label>
+                            <ComboBox Name="cbSLA" Width="170" Height="40" Background="WhiteSmoke" Margin="30,0" Foreground="SlateGray" BorderBrush="WhiteSmoke" BorderThickness="2" SelectionChanged="CbSLA_SelectionChanged">
+                                <ComboBoxItem>TODAS</ComboBoxItem>
+                                <ComboBoxItem>FUERA DE SLA</ComboBoxItem>
+                            </ComboBox>
+                            <Label Margin="10,0,0,0" Width="100" VerticalAlignment="Center"  Height="40" Style="{StaticResource labelTitle}">Por Estado:</Label>
+                            <ComboBox Name="cbCategorias"   Width="170" Height="40" Margin="30,0" Background="WhiteSmoke" Foreground="SlateGray" BorderBrush="WhiteSmoke" BorderThickness="2" SelectionChanged="CbSLA_SelectionChanged">
+                                <ComboBoxItem>FINALIZADAS</ComboBoxItem>
+                                <ComboBoxItem>NO FINALIZADAS</ComboBoxItem>
+                            </ComboBox>
+                        </StackPanel>
+                    </StackPanel>
+                   
+                </Border>
+            </StackPanel>
+
+        </StackPanel>
+        <StackPanel Grid.Row="2" Margin="20,0,0,0">
+            <DataGrid Name="dtTickets" LoadingRow="DtTickets_LoadingRow" Margin="20"  Height="450" CanUserAddRows="False" Background="White" Foreground="Black" RowHeight="50" ItemsSource="{Binding}" HorizontalScrollBarVisibility="Hidden" AutoGenerateColumns="False" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Nº Ticket"  Binding="{Binding NumTicket}" IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Id Equipo" Width="100" Binding="{Binding IdEquipo}" IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTemplateColumn x:Name="Estado" Header="Estado" IsReadOnly="True">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image x:Name="imgEstado" HorizontalAlignment="Left" Width="115" >
+                                    <Image.Style>
+                                        <Style TargetType="{x:Type Image}">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Estado}" Value="1">
+                                                    <Setter Property="Source" Value="../Imagenes/estadoCreada.png"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Estado}" Value="2">
+                                                    <Setter Property="Source" Value="../Imagenes/estadoAsignada.png"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Estado}" Value="3">
+                                                    <Setter Property="Source" Value="../Imagenes/estadoEnCurso.png"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Estado}" Value="4">
+                                                    <Setter Property="Source" Value="../Imagenes/estadoFinalizada.png"/>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Estado}" Value="5">
+                                                    <Setter Property="Source" Value="../Imagenes/estadoPendiente.png"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+
+                                        </Style>
+                                    </Image.Style>
+
+                                </Image>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                    <DataGridTextColumn Header="Técnico" Width="200" Binding="{Binding Path=TecnicoAsignado, Converter={StaticResource myConverter}}" IsReadOnly="True" ></DataGridTextColumn>
+                    <DataGridTextColumn Header="Descripción" Width="350" Binding="{Binding Descripcion}"  IsReadOnly="True"  ></DataGridTextColumn>
+                    <DataGridTemplateColumn Header="Editar">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Name="btDetallesTicket" Click="BtDetallesTicket_Click" HorizontalAlignment="Center" BorderBrush="Transparent" Background="Transparent">
+                                    <Image Source="../Imagenes/editarTicket.png"></Image>
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+
+                </DataGrid.Columns>
+            </DataGrid>
+        </StackPanel>
+
+
+
+
+        <StatusBar Background="WhiteSmoke" Grid.Row="3"  Name="statusBar" Height="50">
+            <TextBlock Foreground="White" Name="tbStatusInformation" Margin="10"></TextBlock>
+        </StatusBar>
+    </Grid>
+</UserControl>

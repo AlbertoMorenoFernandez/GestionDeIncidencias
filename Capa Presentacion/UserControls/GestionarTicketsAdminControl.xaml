@@ -1,0 +1,137 @@
+﻿<UserControl x:Class="Capa_Presentacion.UserControls.GestionarTicketsAdminControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Capa_Presentacion.UserControls"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+              d:DesignHeight="870" d:DesignWidth="1100" Loaded="UserControl_Loaded">
+    <UserControl.Resources>
+        <local:ConvertUsuarioId x:Key="usuarioConverter"></local:ConvertUsuarioId>
+        <local:ConvertUserAddress x:Key="direccionConverter"></local:ConvertUserAddress>
+        <local:ConvertTecnicoId x:Key="tecnicoConverter"></local:ConvertTecnicoId>
+        <local:ConvertTecnicianAddress x:Key="tecnicoAddressConverter"></local:ConvertTecnicianAddress>
+    </UserControl.Resources>
+    <Grid Name="gdPrincipal" Background="White" DataContext="{Binding}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="220"></RowDefinition>
+            <RowDefinition Height="140"></RowDefinition>
+            <RowDefinition Height="300"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <TextBlock HorizontalAlignment="Left" VerticalAlignment="Center"  Style="{StaticResource titulo}" Margin="70,0,0,0">Gestionar Ticket</TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Vertical" Grid.Row="1">
+            <StackPanel Orientation="Horizontal" Height="65">
+                <Label Margin="70,0,0,0" Width="150"  VerticalAlignment="Center" Style="{StaticResource labelTitle}">Nº Ticket:</Label>
+                <TextBlock Name="TbNumTicket" Width="250"  VerticalAlignment="Center" Text="{Binding NumTicket}" ></TextBlock>
+                <Label  Width="150"  VerticalAlignment="Center" Style="{StaticResource labelTitle}">Id Equipo:</Label>
+                <TextBlock Name="TbIdEquipo" Width="150"  VerticalAlignment="Center" Text="{Binding IdEquipo}" ></TextBlock>
+                <Label Width="100" VerticalAlignment="Center" Style="{StaticResource labelTitle}">Estado:</Label>
+                <Image x:Name="imgEstado"  HorizontalAlignment="Left" Width="115" >
+                    <Image.Style>
+                        <Style TargetType="{x:Type Image}">
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding Estado}" Value="1">
+                                    <Setter Property="Source" Value="../Imagenes/estadoCreada.png"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Estado}" Value="2">
+                                    <Setter Property="Source" Value="../Imagenes/estadoAsignada.png"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Estado}" Value="3">
+                                    <Setter Property="Source" Value="../Imagenes/estadoEnCurso.png"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Estado}" Value="4">
+                                    <Setter Property="Source" Value="../Imagenes/estadoFinalizada.png"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding Estado}" Value="5">
+                                    <Setter Property="Source" Value="../Imagenes/estadoPendiente.png"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Image.Style>
+                </Image>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" >
+                <Label Margin="70,0,0,0" Width="150" VerticalAlignment="Center" Style="{StaticResource labelTitle}">Usuario:</Label>
+                <TextBlock Name="tbUsuario" Width="250" VerticalAlignment="Center"  Text="{Binding IdUsuario, Converter={StaticResource usuarioConverter}}" ></TextBlock>
+                <Label  Width="150" VerticalAlignment="Center" Style="{StaticResource labelTitle}">Dirección:</Label>
+                <TextBlock Name="tbDireccion" Width="450" VerticalAlignment="Center" Text="{Binding IdUsuario, Converter={StaticResource direccionConverter}}" ></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal"  Height="65">
+                <Label Margin="70,0,0,0" Width="150" VerticalAlignment="Center" Style="{StaticResource labelTitle}">Fecha de entrada:</Label>
+                <TextBlock  Name="tbFecha" Width="250" VerticalAlignment="Center"  Text="{Binding FechaEntrada}" ></TextBlock>
+                <Label  Width="150" VerticalAlignment="Center" Style="{StaticResource labelTitle}">Categoria::</Label>
+                <ComboBox Name="cbCategoria" Width="200" Height="30" ItemsSource="{Binding}"></ComboBox>
+            </StackPanel>
+            <Border Height="60" Margin="70,0" Background="WhiteSmoke" CornerRadius="10" Width="950">
+                <TextBlock  Margin="10,10" Text="{Binding Descripcion}"></TextBlock>
+            </Border>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <StackPanel Orientation="Vertical" Width="550">
+                <Label Margin="70,10,0,0"  Style="{StaticResource labelTitle}">Resolución</Label>
+                <TextBox Name="tbResolucion" MaxLength="200" Style="{StaticResource longTextbox}" Margin="70,0,0,0" TextWrapping="Wrap" BorderThickness="0"  Text="{Binding Resolucion}" materialDesign:HintAssist.Hint="Máximo 200 carácteres" Background="WhiteSmoke" Width="400" Height="90"></TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Width="550">
+                <Label Margin="70,10,0,0" Style="{StaticResource labelTitle}">Notas Técnico:</Label>
+                <TextBox Margin="70,0,0,10" MaxLength="200"  Style="{StaticResource longTextbox}"  Name="tbNotasTecnico" BorderThickness="0" TextWrapping="Wrap" Text="{Binding NotasTecnico}" materialDesign:HintAssist.Hint="Máximo 200 carácteres" Background="WhiteSmoke" Width="400" Height="90"></TextBox>
+            </StackPanel>
+            
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="3">
+            <StackPanel Orientation="Vertical" Width="550" Margin="0,15">
+                <Label Name="lbTituloReloj" Margin="70,30,0,0" Style="{StaticResource labelTitle}">TIEMPO RESOLUCIÓN:</Label>
+                <StackPanel Orientation="Horizontal">
+                    <Image Name="imgRelojSLA" Height="110" Source="../Imagenes/lejosSLA.png" Margin="70,0"></Image>
+                    <TextBlock Name="tbTiempoResolucion" FontSize="65" VerticalAlignment="Bottom">04:30</TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton Name="rbAsignar" Checked="RbAsignar_Checked" Margin="70,20">Asignar a:</RadioButton>
+                    <RadioButton Name="rbCerrar" IsChecked="True" Checked="RbCerrar_Checked" Margin="0,20">Cerrar</RadioButton>
+                </StackPanel>
+                <ComboBox Name="cbTecnicos" Visibility="Hidden" ItemsSource="{Binding}" Height="40" Margin="70,0" SelectionChanged="CbTecnicos_SelectionChanged"></ComboBox>
+            </StackPanel>
+            <StackPanel Orientation="Vertical" Width="550">
+                <StackPanel Orientation="Horizontal">
+                    <Label Margin="70,50,0,0" Width="150"  VerticalAlignment="Center" Style="{StaticResource labelTitle}">Técnico:</Label>
+                    <TextBlock Name="tbTecnico" Width="250" Margin="0,50,0,0" VerticalAlignment="Center" Text="{Binding TecnicoAsignado,Converter={StaticResource tecnicoConverter}}" > </TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Margin="70,10,0,0" Width="150"  VerticalAlignment="top" Style="{StaticResource labelTitle}">Dirección:</Label>
+                    <TextBlock  Name="tbTecnicoDireccion" Height="50" TextWrapping="Wrap" Width="250" Margin="0,10,0,0" VerticalAlignment="Center" Text="{Binding TecnicoAsignado,Converter={StaticResource tecnicoAddressConverter}}" ></TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="0,40">
+                    <Border BorderBrush="WhiteSmoke" CornerRadius="10" BorderThickness="2" Height="100" Width="100" Background="WhiteSmoke" Margin="70,10,20,10">
+                        <StackPanel>
+                            <TextBlock Name="tbAsignadas" FontSize="60" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top">-</TextBlock>
+                            <TextBlock FontSize="18" Height="30" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20">Asignadas</TextBlock>
+                        </StackPanel>
+                    </Border>
+                    <Border BorderBrush="WhiteSmoke" CornerRadius="10" BorderThickness="2" Height="100" Width="100" Background="WhiteSmoke" Margin="0,10,20,10">
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock Name="tbPendientes" FontSize="60" HorizontalAlignment="Center" Foreground="IndianRed" Height="70" VerticalAlignment="Top">-</TextBlock>
+                            <TextBlock FontSize="18" Height="30" Foreground="IndianRed" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,20">Pendientes</TextBlock>
+                        </StackPanel>
+                    </Border>
+                      
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Grid.Row="4" HorizontalAlignment="Right">
+            <Button Name="btVolver" Click="BtVolver_Click" Style="{StaticResource RegularButton}">
+                <AccessText>_VOLVER</AccessText></Button>
+            <Button Name="btActualizar" Click="BtActualizar_Click" Style="{StaticResource RegularButton}" Margin="30,0,70,0">
+                <AccessText>_ACTUALIZAR</AccessText></Button>
+        </StackPanel>
+        <StatusBar Background="WhiteSmoke" Grid.Row="5"  Name="statusBar" Height="50">
+            <TextBlock Foreground="White" Name="tbStatusInformation" Margin="10"></TextBlock>
+        </StatusBar>
+    </Grid>
+</UserControl>

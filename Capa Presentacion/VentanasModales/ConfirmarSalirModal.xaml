@@ -1,0 +1,42 @@
+﻿<Window x:Class="Capa_Presentacion.ConfirmarSalir"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Capa_Presentacion"
+        mc:Ignorable="d"
+        Title="ConfirmarSalir" Height="210" Width="400"  AllowsTransparency="True" WindowStyle="None" Background="{x:Null}" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard>
+                <Storyboard FillBehavior="HoldEnd" AutoReverse="False">
+                    <DoubleAnimation Storyboard.TargetProperty="Opacity" From="0" To="1" Duration="0:0:0.5"/>
+                </Storyboard>
+            </BeginStoryboard>
+        </EventTrigger>
+    </Window.Triggers>
+    <StackPanel Orientation="Vertical">
+        <Border Height="50" x:Name="gBar"  MouseDown="gBar_MouseDown" Background="#356d67"  CornerRadius="20,20,0,0">
+            <StackPanel  >
+                <Button x:Name="btnClose" Style="{StaticResource MyRedButton}" Content="X" Background="Transparent" Foreground="White" Click="btnClose_Click" HorizontalAlignment="Right" Height="45" Width="58"/>
+            </StackPanel>
+        </Border>
+        <Border Height="140" BorderThickness="2" BorderBrush="#356d67" Grid.Row="1" Background="White" CornerRadius="0,0,20,20" >
+            <StackPanel  Orientation="Vertical" x:Name="gBody">
+           
+                <StackPanel Orientation="Vertical">
+                    <TextBox  Height="41" x:Name="tbText" Text="¿Desea salir de la aplicación?" Margin="0,10,5,0"  FontSize="18" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="Black" BorderThickness="0" IsReadOnly="True" />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"  >
+                        <Button  Name="btSalir" Style="{StaticResource ModalButton}" HorizontalAlignment="Left" Margin="5" Click="btSalir_Click" >
+                            <AccessText>
+                                _Si
+                            </AccessText></Button>
+                        <Button Name="btNoSalir" Style="{StaticResource ModalButton}" HorizontalAlignment="Right" Margin="5" Click="btNoSalir_Click" >No</Button>
+                    </StackPanel>
+                </StackPanel>
+           
+        </StackPanel>
+        </Border>
+    </StackPanel>
+</Window>
+

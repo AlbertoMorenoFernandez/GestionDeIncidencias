@@ -1,0 +1,6 @@
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\bin\Release\Capa Entidades.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\bin\Release\Capa Entidades.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\obj\Release\Capa Entidades.csprojAssemblyReference.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\obj\Release\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\obj\Release\Capa Entidades.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\obj\Release\Capa Entidades.pdb

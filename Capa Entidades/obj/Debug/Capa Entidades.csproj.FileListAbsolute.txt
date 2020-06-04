@@ -1,0 +1,12 @@
+C:\Users\Alberto\source\repos\ApiIncidencias\Capa Entidades\bin\Debug\Capa Entidades.dll
+C:\Users\Alberto\source\repos\ApiIncidencias\Capa Entidades\bin\Debug\Capa Entidades.pdb
+C:\Users\Alberto\source\repos\ApiIncidencias\Capa Entidades\obj\Debug\Capa Entidades.csprojAssemblyReference.cache
+C:\Users\Alberto\source\repos\ApiIncidencias\Capa Entidades\obj\Debug\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\source\repos\ApiIncidencias\Capa Entidades\obj\Debug\Capa Entidades.dll
+C:\Users\Alberto\source\repos\ApiIncidencias\Capa Entidades\obj\Debug\Capa Entidades.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\bin\Debug\Capa Entidades.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\bin\Debug\Capa Entidades.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\obj\Debug\Capa Entidades.csprojAssemblyReference.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\obj\Debug\Capa Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\obj\Debug\Capa Entidades.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\Capa Entidades\obj\Debug\Capa Entidades.pdb

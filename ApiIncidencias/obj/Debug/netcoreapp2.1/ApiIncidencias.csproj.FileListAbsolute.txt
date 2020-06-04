@@ -1,0 +1,50 @@
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.deps.json
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.runtimeconfig.json
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.runtimeconfig.dev.json
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.dll
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.pdb
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.RazorAssemblyInfo.cache
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.RazorAssemblyInfo.cs
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.AssemblyInfoInputs.cache
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.AssemblyInfo.cs
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.RazorTargetAssemblyInfo.cache
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.dll
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.pdb
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\Capa Entidades.dll
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\Capa Entidades.pdb
+C:\Users\Alberto\source\repos\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.csprojResolveAssemblyReference.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.deps.json
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.runtimeconfig.json
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.runtimeconfig.dev.json
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\Capa Entidades.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\bin\Debug\netcoreapp2.1\Capa Entidades.pdb
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.csprojAssemblyReference.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.RazorAssemblyInfo.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.RazorAssemblyInfo.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.AssemblyInfoInputs.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.AssemblyInfo.cs
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.RazorTargetAssemblyInfo.cache
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.csproj.CopyComplete
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.dll
+C:\Users\Alberto\Dropbox\ApiIncidencias\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.pdb
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.deps.json
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.runtimeconfig.json
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.runtimeconfig.dev.json
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\bin\Debug\netcoreapp2.1\ApiIncidencias.pdb
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\bin\Debug\netcoreapp2.1\Capa Entidades.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\bin\Debug\netcoreapp2.1\Capa Entidades.pdb
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.csprojAssemblyReference.cache
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.csproj.CoreCompileInputs.cache
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.RazorAssemblyInfo.cache
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.RazorAssemblyInfo.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.AssemblyInfoInputs.cache
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.AssemblyInfo.cs
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.RazorTargetAssemblyInfo.cache
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.csproj.CopyComplete
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.dll
+C:\Users\Alberto\Desktop\GESTION_INCIDENCIAS\ApiIncidencias\obj\Debug\netcoreapp2.1\ApiIncidencias.pdb

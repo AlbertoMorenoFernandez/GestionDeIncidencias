@@ -1,0 +1,75 @@
+﻿<UserControl x:Class="Capa_Presentacion.UserControls.TicketTecnicoControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Capa_Presentacion.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="870" d:DesignWidth="1100">
+    <UserControl.Resources>
+        <local:ConvertUsuarioId x:Key="myConverter"></local:ConvertUsuarioId>
+     
+    </UserControl.Resources>
+    <Grid Name="panelPrincipal" Background="White"  Width="1100">
+        <StackPanel Height="870" Orientation="Vertical">
+            <StackPanel Orientation="Vertical" Height="820">
+                <TextBlock Style="{StaticResource titulo}" Margin="70,10,0,10">Seleccionar Ticket</TextBlock>
+                <Label Name="tbSinTickets"  Margin="80,10,10,10" Visibility="Collapsed">Sin tickets pendientes</Label>
+                <ListView x:Name="myListView" Width="1000" Height="700" Margin="70,10,10,10" HorizontalAlignment="Left" ItemsSource="{Binding}"  SelectionChanged="MyListView_SelectionChanged">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock FontWeight="Bold" Margin="0,5">
+                                    <TextBlock.Style>
+                                        <Style TargetType="{x:Type TextBlock}">
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Estado}" Value="4">
+                                                    <Setter Property="Text" Value="Finalizada"/>
+                                                    <Setter Property="Foreground" Value="Green"></Setter>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Estado}" Value="3">
+                                                    <Setter Property="Text" Value="En Curso"/>
+                                                    <Setter Property="Foreground" Value="Orange"></Setter>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Estado}" Value="2">
+                                                    <Setter Property="Text" Value="Asignada"/>
+                                                    <Setter Property="Foreground" Value="Green"></Setter>
+                                                </DataTrigger>
+                                                <DataTrigger Binding="{Binding Estado}" Value="5">
+                                                    <Setter Property="Text" Value="Pendiente"/>
+                                                    <Setter Property="Foreground" Value="IndianRed"></Setter>
+                                                </DataTrigger>
+
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
+                                   </TextBlock>
+                                <StackPanel Orientation="Horizontal" Margin="0">
+                                    <StackPanel Orientation="Horizontal" Width="750">
+                                        <TextBlock FontWeight="Bold" Margin="0,0,20,0">Id ticket:</TextBlock>
+                                        <TextBlock Text="{Binding NumTicket}"  />
+                                        <TextBlock FontWeight="Bold" Margin="20,0,20,0">Usuario:</TextBlock>
+                                        <TextBlock Text="{Binding IdUsuario, Converter={StaticResource myConverter}}" />
+                                        <TextBlock FontWeight="Bold" Margin="20,0,20,0">Fecha de entrada:</TextBlock>
+                                        <TextBlock Text="{Binding FechaEntrada}" />
+                                    </StackPanel>
+                                    <Image Width="30" VerticalAlignment="Bottom" Margin="130,0,0,0" Source="/Imagenes/editTicket.png"></Image>
+                                </StackPanel>
+                                <TextBlock FontWeight="Bold" Margin="5">Descripción:</TextBlock>
+                                <Border CornerRadius="20" Height="60" Width="750" BorderThickness="2" HorizontalAlignment="Left" BorderBrush="LightGray">
+                                    <TextBlock  Text="{Binding Descripcion}" Margin="10"></TextBlock>
+
+                                </Border>
+                            </StackPanel>
+
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+            <StatusBar Background="WhiteSmoke" Name="statusBar" Height="50">
+                <TextBlock Foreground="White" Name="tbStatusInformation" Margin="10"></TextBlock>
+            </StatusBar>
+        </StackPanel>
+    </Grid>
+</UserControl>

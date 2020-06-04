@@ -1,0 +1,71 @@
+﻿<UserControl x:Class="Capa_Presentacion.UserControls.VerHistoricoTicketsControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Capa_Presentacion.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="870" d:DesignWidth="1100">
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="330"></RowDefinition>
+            <RowDefinition Height="490"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <TextBlock Style="{StaticResource titulo}" Margin="45,10" >Histórico de incidencias</TextBlock>
+
+           
+                <StackPanel Orientation="Vertical"  HorizontalAlignment="Left" Height="220"  Background="White" Margin="50,20" VerticalAlignment="Top" Width="1000">
+
+                    <Border CornerRadius="20,20,0,0" Background="WhiteSmoke" Height="40" >
+                        <StackPanel Orientation="Horizontal">
+                            <Image Height="20" Source="../Imagenes/ticket.png" Margin="3,0" />
+                            <TextBlock VerticalAlignment="Center" FontWeight="Bold">Filtrar búsqueda</TextBlock>
+                        </StackPanel>
+                    </Border>
+                <Border BorderThickness="1" CornerRadius="0,0,20,20" BorderBrush="LightGray">
+                    <StackPanel Orientation="Vertical" >
+                        <StackPanel Orientation="Horizontal">
+                            <Label Style="{StaticResource labelTitle}" Margin="5,10,10,5" Width="200">Id Equipo:</Label>
+                            <TextBox Name="tbEquipo" materialDesign:HintAssist.Hint="Introduzca id de equipo" Background="White" Width="200" Height="30"  Margin="5,10,10,5"></TextBox>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Style="{StaticResource labelTitle}" Margin="5,10,10,5" Width="200">Desde:</Label>
+                            <DatePicker Name="dtpDesde" Width="200"  Margin="5,10,10,5" ></DatePicker>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <Label Style="{StaticResource labelTitle}" Margin="5,5,10,5" Width="200">Hasta:</Label>
+                            <DatePicker Name="dtpHasta" Width="200"  Margin="5,10,10,5" ></DatePicker>
+                        </StackPanel>
+                        <Button Name="btFiltrar" Style="{StaticResource RegularButton}" HorizontalAlignment="Right" Margin="10,0,10,5"  Click="BtFiltrar_Click" >
+                            <StackPanel Orientation="Horizontal" >
+                                <Image  Width="30" Stretch="Uniform" Source="../Imagenes/buscarTicket.png" ></Image>
+                                <TextBlock Margin="10" HorizontalAlignment="Center" Width="80"><AccessText>_FILTRAR</AccessText></TextBlock>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+          
+    </StackPanel>
+    <StackPanel Grid.Row="1" >
+            <DataGrid Name="dtTickets" Width="1000" Margin="20"  Height="450" CanUserAddRows="False" Background="WhiteSmoke" Foreground="Black" RowHeight="50" ItemsSource="{Binding}" HorizontalScrollBarVisibility="Hidden" AutoGenerateColumns="False" LoadingRow="DtTickets_LoadingRow" >
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Nº Ticket" Binding="{Binding NumTicket}" IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Fecha Entrada" Width="170" Binding="{Binding FechaEntrada}" IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Fecha Salida" Width="170" Binding="{Binding FechaResolucion}"  IsReadOnly="True"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Descripción" Width="300" Binding="{Binding Descripcion}"  IsReadOnly="True"  ></DataGridTextColumn>
+                    <DataGridTextColumn Header="Resolución" Width="300" Binding="{Binding Resolucion}" IsReadOnly="True" ></DataGridTextColumn>
+          
+                 </DataGrid.Columns> 
+            </DataGrid>
+        </StackPanel>
+        <StatusBar Background="WhiteSmoke" Grid.Row="2" Name="statusBar" Height="50">
+            <TextBlock Foreground="White" Name="tbStatusInformation" Margin="10"></TextBlock>
+        </StatusBar>
+        
+
+    </Grid>
+</UserControl>

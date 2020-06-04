@@ -1,0 +1,43 @@
+﻿<Window x:Class="Capa_Presentacion.VentanaInformacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:Capa_Presentacion"
+        mc:Ignorable="d"
+          Title="VentanaInformacion" Height="250" Width="450"  AllowsTransparency="True" WindowStyle="None" Background="{x:Null}"  WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Border BorderBrush="Gray" Background="GhostWhite"  CornerRadius="20">
+            <Grid Name="gdVentanaRecuperar">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Border Background="#356d67" CornerRadius="20,20,0,0" Grid.Row="0">
+                    <StackPanel  >
+                        <Button x:Name="btClose" Click="BtClose_Click"  HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="Transparent" BorderBrush="{x:Null}" Foreground="#FF31577E" >
+                            <materialDesign:PackIcon Kind="Close" ToolTip="Pantalla Principal" Foreground="White" Background="Transparent"  Width="35" Height="35"/>
+                        </Button>
+                    </StackPanel>
+
+                </Border>
+                <StackPanel Orientation="Vertical" Grid.Row="1">
+                    <StackPanel  Orientation="Horizontal">
+                        <Image Name="imgTipoInformacion" Source="../Imagenes/exito.png" Width="50" VerticalAlignment="Top" Margin="20"></Image>
+                        <ScrollViewer VerticalScrollBarVisibility="Visible">
+                            <TextBox Name="tbInformacion" Style="{StaticResource longTextbox}" BorderThickness="0" IsReadOnly="True" Background="GhostWhite"  Width="310"  Height="110" VerticalAlignment="Top" Margin="0,25,0,10" > Contraseña restablecida correctamente, revise su dirección de email para más indicaciones.</TextBox>
+
+                        </ScrollViewer>
+                    </StackPanel>
+                    <Button Name="btAceptar" Click="BtAceptar_Click" Style="{StaticResource ModalButton}" Margin="10" >
+                        <AccessText>_Aceptar</AccessText></Button>
+
+                </StackPanel>
+                
+
+            </Grid>
+        </Border>
+    </Grid>
+</Window>
