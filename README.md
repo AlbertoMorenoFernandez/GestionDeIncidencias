@@ -1,5 +1,7 @@
 # GestionDeIncidencias
 ![Imagen no disponible](https://image.freepik.com/foto-gratis/hombre-reparando-placa-circuito-computadora-portatil_1098-14844.jpg)
+
+
 El proyecto está compuesto por varios subproyectos de visual studio, para poder ejecutarlos es necesario:
 * Tener instalado el servidor MySql de la base de datos y mediante algún gestor ejecutar el script "*incidenciasDefinitivo.sql*"
 * Descargar los recursos de imagenes y audio tal y como indicamos en el paso 3 y copiarlos en la estructura del proyecto siguiendo las indicaciones.
