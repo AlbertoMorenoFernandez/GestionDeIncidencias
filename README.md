@@ -34,7 +34,9 @@ FLUSH PRIVILEGES;
 SHOW GRANTS FOR 'tienda'@'%';
 ```
 3. Puedes descargar los recursos necesarios para ejecutar el proyecto desde el siguiente enlace:
-[link](https://www.dropbox.com/sh/4uks71rvehhzlt3/AAAfe_1TDmTGVLdevgwMhhPha?dl=0)
+[link](https://www.dropbox.com/sh/4uks71rvehhzlt3/AAAfe_1TDmTGVLdevgwMhhPha?dl=0)d
+
+NOTA: los usuarios tienen la contraseña "1111"  por facilidad en las pruebas de la aplicación, sin embargo si se pretende editar un usuario la contraseña debe tener de 8 a 12 caracteres y contener una mayúsculas, un número y un caracter especial.
 
 Una vez descargados, dentro del proyecto, debes copiar las carpetas "**Imagenes**" y "**Sonido**" en la carpeta "**Capa_Presentación**"
 Muchas gracias, para cualquier aclaración no dudeis en preguntarme.
