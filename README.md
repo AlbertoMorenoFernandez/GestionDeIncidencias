@@ -1,4 +1,4 @@
-# GestionDeIncidencias
+# Gestión De Incidencias
 ![Imagen no disponible](https://image.freepik.com/foto-gratis/hombre-reparando-placa-circuito-computadora-portatil_1098-14844.jpg)
 
 
