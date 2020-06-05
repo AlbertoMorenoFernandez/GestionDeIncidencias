@@ -1,8 +1,14 @@
 # GestionDeIncidencias
+![Imagen no disponible](https://cdn.pixabay.com/photo/2017/07/16/20/44/mobile-phone-2510529_960_720.jpg)
+El proyecto está compuesto por varios subproyectos de visual studio, para poder ejecutarlos es necesario:
+* Tener instalado el servidor MySql de la base de datos y mediante algún gestor ejecutar el script "*incidenciasDefinitivo.sql*"
+* Descargar los recursos de imagenes y audio tal y como indicamos en el paso 3 y copiarlos en la estructura del proyecto siguiendo las indicaciones.
+* A la hora de ejecutar el proyecto desde Visual Studio es importante asegurarse de tener escogida la opción "iniciar múltiples proyectos" y seleccionados los proyectos "*Capa Presentación*" y  "*ApiIncidencias*"
+
 1. Guía de instalación de Wamp para base de datos mySql:
 [lynk](https://ortizvivas.com/blog/configurar-wamp/)
 2. Mediante el script incidenciasDefinitivo.sql genera la base de datos local, la aplicación generará una webApi a partir de ella
-La aplicación tiene definidio el usuario "*tienda**" y la contraseña "*1234**",  usar cualquier otro usuario que tengas definido, pero deberás modificar el archivo "Startup.cs" del Proyecto ApiIncidencias con los valores de usuario y contraseña de tu base de datos.  Para crear el usuario desde un cliente mySql puedes:
+La aplicación tiene definidio el usuario "*tienda*" y la contraseña "*1234*",  usar cualquier otro usuario que tengas definido, pero deberás modificar el archivo "*Startup.cs*" del Proyecto ApiIncidencias con los valores de usuario y contraseña de tu base de datos.  Para crear el usuario desde un cliente mySql puedes:
 ```
 CREATE USER 'tienda'@'localhost' IDENTIFIED BY '1234';
 GRANT EXECUTE, PROCESS, SELECT, SHOW DATABASES, SHOW VIEW, ALTER, ALTER
@@ -20,9 +26,10 @@ CLIENT, REPLICATION SLAVE, SHUTDOWN, SUPER ON *.* TO 'tienda'@'%';
 FLUSH PRIVILEGES;
 SHOW GRANTS FOR 'tienda'@'%';
 ```
-3. Para poder ejectur el proyecto es necesario descargar los siguientes recursos:
+3. Para poder ejecutar el proyecto es necesario descargar los siguientes recursos:
 [link](https://www.dropbox.com/sh/4uks71rvehhzlt3/AAAfe_1TDmTGVLdevgwMhhPha?dl=0)
 Dentro del proyecto, copia las carpetas imagenes y sonido en la carpeta Capa_Presentación
-4. una vez copiadas se debe indicar en la solución:
+
+4. Una vez copiadas se debe indicar en la solución:
 - Iniciar múltiples proyectos
 - E iniciar la capa presentación y la ApiIncidencias.
