@@ -50,7 +50,7 @@ namespace Capa_Presentacion
         {
             // Aquí en destinatario pondríamos destinatario=tbCorreo.Text;
             string destinatario = "usuario.alitec@outlook.es";
-            string password = "Everis2020";                         //Aquí iria password del administrador(cuenta sólo para enviar contraseñas)
+            string password = "****";                         //Aquí iria password del administrador(cuenta sólo para enviar contraseñas)
             string remitente = "gestor.alitec@outlook.es";          //Aquí iria dirección de correo del administrador.
             string gestorCorreo = "SMTP.Office365.com";             // Para cada gestor de correo es distinta
 
