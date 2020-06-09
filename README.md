@@ -16,7 +16,7 @@ En las próximas líneas se mostrarán más datos que permitan ejecutar la aplic
 La aplicación tiene definidio el usuario "*tienda*" y la contraseña "*1234*", puedes usar cualquier otro usuario que tengas definido, pero deberás modificar el archivo "*Startup.cs*" del Proyecto ApiIncidencias con los valores de usuario y contraseña de tu base de datos.
 
 Para crear el usuario desde un cliente mySql puedes:
-```
+```C#
 CREATE USER 'tienda'@'localhost' IDENTIFIED BY '1234';
 GRANT EXECUTE, PROCESS, SELECT, SHOW DATABASES, SHOW VIEW, ALTER, ALTER
 ROUTINE, CREATE, CREATE ROUTINE, CREATE TABLESPACE, CREATE TEMPORARY
